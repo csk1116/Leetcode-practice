@@ -33,7 +33,7 @@ int main(){
 
     vector<int> result = sl.twoSum(number, target);
 
-    cout <<  result[0] << ", " << result[1];
+    cout <<  result[0] << ", " << result[1] << "hihi";
 
     return 0;
 }
