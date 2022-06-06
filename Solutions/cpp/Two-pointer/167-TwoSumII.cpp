@@ -60,20 +60,26 @@ public:
                 cout << "sol2: " << left + 1 << ", " << right + 1 << endl;
                 return result;
             }
-            else if(sum > target)
+            else
             {
-                right --;
+                sum > target ? right -- : left ++;
             }
-            else if(sum < target)
-            {
-                left ++;
-            }
+            // else if(sum > target)
+            // {
+            //     right --;
+            // }
+            // else
+            // {
+            //     left ++;
+            // }
         }
 
         cout << "not found" << endl;
         return result;
     }
 };
+
+
 
 int main()
 {
