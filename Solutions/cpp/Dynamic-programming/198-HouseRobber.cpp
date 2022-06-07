@@ -8,10 +8,7 @@ using namespace std;
 class Solution1
 {
 public:
-    int rob(vector<int> &nums)
-    {
-        return 0;
-    }
+    //int rob(vector<int> &nums);   
 };
 
 // dp
@@ -52,8 +49,8 @@ int main()
 
     // BF
     Solution1 solution1;
-    solution1.rob(houseVec1);
-    solution1.rob(houseVec2);
+    //solution1.rob(houseVec1);
+    //solution1.rob(houseVec2);
 
     // DP
     Solution2 solution2;
