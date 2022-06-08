@@ -60,13 +60,13 @@ int main()
     ListNode* head2 = &l2;
     ListNode* temp2 = head2;
 
-    for(int i = 2; i < 7; i++)
+    for(int i = 2; i < 10; i++)
     {
         temp1->next = new ListNode(i);
         temp1 = temp1->next;
     } 
 
-    for(int i = 0; i < 9; i++)
+    for(int i = 0; i < 15; i = i+2)
     {
         temp2->next = new ListNode(i);
         temp2 = temp2->next;

@@ -8,7 +8,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This program built for i386-pc-mingw32
  
 
-# Make data base, printed on Mon Jun 06 20:38:21 2022
+# Make data base, printed on Wed Jun 08 17:49:02 2022
 
 # Variables
 
@@ -58,7 +58,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-ce3f5252-ea4d-4fb4-ba70-b8515fc1aaef-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-8e751e45-fcf6-4c7d-94ff-5d5882afa34b-sock
 # environment
 VSCODE_CWD = C:\Program Files\Microsoft VS Code
 # environment
@@ -92,7 +92,7 @@ NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
 # environment
 ZED_SDK_ROOT_DIR = C:\Program Files (x86)\ZED SDK
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_21612_OTIUGJSVOUNGFEUW
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_31624_BLVSJZHWXBJVIMRM
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -207,9 +207,8 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-VSCODE_PID = 21612
-# environment 
-
+VSCODE_PID = 31624
+# environment
 USERDOMAIN_ROAMINGPROFILE = CSK
 # variable set hash-table stats:
 # Load=98/1024=10%, Rehash=0, Collisions=9/114=8%
@@ -224,14 +223,14 @@ USERDOMAIN_ROAMINGPROFILE = CSK
 # C:\msys64\usr\bin (key C:/msys64/usr/bin, mtime 1650029963): 411 files, no impossibilities so far.
 # C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1626508471): 32 files, no impossibilities.
 # C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1649691924): 155 files, no impossibilities.
-# . (key c:/Users/CSK/git/Leetcode-practice, mtime 1654346693): 6 files, no impossibilities.
-# C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\libnvvp (key C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.0/libnvvp, mtime 1549050212): 14 file 
-s, no impossibilities.
+# . (key c:/Users/CSK/git/Leetcode-practice, mtime 1654560750): 6 files, no impossibilities.
+# C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\libnvvp (key C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.0/libnvvp, mtime 1549050212): 14 files, no impossibilities.
 # C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1549942503): 10 files, no impossibilities.
 # C:\Program Files\Microsoft MPI\Bin\ (key C:/Program Files/Microsoft MPI/Bin/, mtime 1508238174): 6 files, no impossibilities.
 # C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1652618718): 11 files, no impossibilities.
 # C:\Python310\ (key C:/Python310/, mtime 1650021577): 18 files, no impossibilities.
-# C:\Program Files (x86)\Python36-32\: could not be stat'd.
+#  
+C:\Program Files (x86)\Python36-32\: could not be stat'd.
 # C:\Program Files (x86)\Windows Live\Shared: could not be stat'd.
 # C:\Python310\Scripts\ (key C:/Python310/Scripts/, mtime 1650021578): 5 files, no impossibilities.
 # C:\Program Files (x86)\Python36-32\Scripts\: could not be stat'd.
@@ -242,17 +241,18 @@ s, no impossibilities.
 # C:\fuzzylite-6.0\fuzzylite\debug\bin: could not be stat'd.
 # C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin (key C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.0/bin, mtime 1556197393): 43 files, no impossibilities.
 # C:\Program Files\Microsoft SQL Server\130\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/130/Tools/Binn/, mtime 1508237351): 4 files, no impossibilities.
-# C:\Windows (key C:/Windows, mtime 1626497801): 135 files, no impossibilities.
+# C:\Windows (key C:/Windows, mtime 1626497801): 136 files, no impossibilities.
 # C:\ProgramData\Oracle\Java\javapath (key C:/ProgramData/Oracle/Java/javapath, mtime 1527775097): 5 files, no impossibilities.
 # C:\bazel_msys2: could not be stat'd.
 # C:\Program Files (x86)\ZED SDK\bin: could not be stat'd.
 # C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64 (key C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python36_64, mtime 1543479242): 20 files, no impossibilities.
 # C:\Program Files (x86)\ZED SDK\dependencies\glew-1.12.0\x64: could not be stat'd.
 # C:\Program Files (x86)\ZED SDK\dependencies\freeglut_2.8\x64: could not be stat'd.
-# C:\Windows\system32 (key C:/Windows/system32, mtime 1654492903): 3088 files, no impossibilities.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1654594567): 3087 files, no impossibilities.
 # C:\opencv\build\x64\vc15\bin: could not be stat'd.
 # C:\Program Files\CMake\bin (key C:/Program Files/CMake/bin, mtime 1542789756): 7 files, no impossibilities.
-# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1549940612): 5 files, no impossibilities.
+# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR  
+(key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1549940612): 5 files, no impossibilities.
 
 # 3990 files, no impossibilities in 32 directories.
 
@@ -295,7 +295,8 @@ makefile:
 
 # Not a target:
 GNUmakefile:
-#  A default, MAKEFILES, or -include/sinclude makefile.
+#  A default, MAKEFILES, 
+ or -include/sinclude makefile.
 #  Implicit rule search has been done.
 #  File does not exist.
 #  File has been updated.
@@ -316,7 +317,7 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Mon Jun 06 20:38:21 2022
+# Finished Make data base on Wed Jun 08 17:49:02 2022
 
  
 make.exe: *** No rule to make target `all'.  Stop.
