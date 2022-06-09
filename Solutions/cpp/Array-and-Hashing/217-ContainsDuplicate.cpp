@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <unordered_map>
+#include <unordered_map> //or <set>
 using namespace std;
 
 // BF  
@@ -49,7 +49,7 @@ public:
 };
 
 //HashSet
-//time: O(N)
+//time: check -> O(N), sort -> O(1)
 //space: O(N)
 class Solution3
 {
