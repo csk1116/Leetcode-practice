@@ -56,10 +56,8 @@ public:
                 result[1] = i;
                 break;
             }
-            else
-            {
-                myMap[nums[i]] = i;
-            }           
+
+            myMap[nums[i]] = i;        
         }
         return result;
     }
@@ -68,7 +66,7 @@ public:
 
 int main()
 {
-    vector<int> nums1 = {2, 7, 1, 5}; // target 8
+    vector<int> nums1 = {2, 7, 1, 5}; // target 10 (which has no solution)
     vector<int> nums2 = {1}; // too short vec, target 1
     vector<int> nums3 = {9, 2, 2, 2, 2, 1}; // target 10
     vector<int> nums4 = {2, 2}; //target 4
@@ -78,8 +76,8 @@ int main()
     vector<int> vec1;
     vector<int> vec2;
 
-    vec1 = solution1.twoSum(nums1, 8);
-    vec2 = solution2.twoSum(nums1, 8);
+    vec1 = solution1.twoSum(nums1, 10);
+    vec2 = solution2.twoSum(nums1, 10);
     cout << "sol 1: " << vec1[0] << ", " << vec1[1] << endl;
     cout << "sol 2: " << vec2[0] << ", " << vec2[1] << endl;
 
