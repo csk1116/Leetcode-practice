@@ -8,7 +8,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This program built for i386-pc-mingw32
  
 
-# Make data base, printed on Fri Jun 10 14:50:57 2022
+# Make data base, printed on Sat Jun 11 20:49:00 2022
 
 # Variables
 
@@ -58,7 +58,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-4ccbc498-b2cd-49b5-b4ab-3c31672d1ece-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-430f426a-86de-4e7e-b082-0d4bc3c71b33-sock
 # environment
 VSCODE_CWD = C:\Program Files\Microsoft VS Code
 # environment
@@ -92,7 +92,7 @@ NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
 # environment
 ZED_SDK_ROOT_DIR = C:\Program Files (x86)\ZED SDK
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_14800_QTHHQTBPRESKTMTS
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_24368_VZLYOXPJMABXVAVW
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -183,7 +183,8 @@ COMSPEC = C:\WINDOWS\system32\cmd.exe
 # default
 MAKEFILES := 
 # automatic
-<F = $(notdir $<)
+<F = 
+ $(notdir $<)
 # environment
 LC_ALL = C
 # automatic
@@ -207,11 +208,8 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-VSCODE_PID = 14800
-# environment 
-make.exe: *** No rule to make target `all'.  Stop.
-
-
+VSCODE_PID = 24368
+# environment
 USERDOMAIN_ROAMINGPROFILE = CSK
 # variable set hash-table stats:
 # Load=98/1024=10%, Rehash=0, Collisions=9/114=8%
@@ -232,7 +230,10 @@ USERDOMAIN_ROAMINGPROFILE = CSK
 # C:\Program Files\Microsoft MPI\Bin\ (key C:/Program Files/Microsoft MPI/Bin/, mtime 1508238174): 6 files, no impossibilities.
 # C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1652618718): 11 files, no impossibilities.
 # C:\Python310\ (key C:/Python310/, mtime 1650021577): 18 files, no impossibilities.
-# C:\Program Files (x86)\Python36-32\: could not be stat'd.
+#  
+make.exe: *** No rule to make target `all'.  Stop.
+
+C:\Program Files (x86)\Python36-32\: could not be stat'd.
 # C:\Program Files (x86)\Windows Live\Shared: could not be stat'd.
 # C:\Python310\Scripts\ (key C:/Python310/Scripts/, mtime 1650021578): 5 files, no impossibilities.
 # C:\Program Files (x86)\Python36-32\Scripts\: could not be stat'd.
@@ -250,7 +251,7 @@ USERDOMAIN_ROAMINGPROFILE = CSK
 # C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64 (key C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python36_64, mtime 1543479242): 20 files, no impossibilities.
 # C:\Program Files (x86)\ZED SDK\dependencies\glew-1.12.0\x64: could not be stat'd.
 # C:\Program Files (x86)\ZED SDK\dependencies\freeglut_2.8\x64: could not be stat'd.
-# C:\Windows\system32 (key C:/Windows/system32, mtime 1654684265): 3087 files, no impossibilities.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1654943479): 3087 files, no impossibilities.
 # C:\opencv\build\x64\vc15\bin: could not be stat'd.
 # C:\Program Files\CMake\bin (key C:/Program Files/CMake/bin, mtime 1542789756): 7 files, no impossibilities.
 # C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1549940612): 5 files, no impossibilities.
@@ -317,6 +318,6 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Fri Jun 10 14:50:57 2022
+# Finished Make data base on Sat Jun 11 20:49:00 2022
 
  
