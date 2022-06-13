@@ -162,14 +162,14 @@ public:
     }
 };
 
-void ShowResult(vector<vector<string>>& strVec)
+void ShowResult(const vector<vector<string>>& strVec)
 {    
     for(auto group: strVec)
     {
         cout << "[";
         for(auto str: group)
-        {
-            cout << "\"" << str << "\"";
+        {            
+            cout << "\"" << str << "\"";            
         }
         cout << "]" << endl;
     }
