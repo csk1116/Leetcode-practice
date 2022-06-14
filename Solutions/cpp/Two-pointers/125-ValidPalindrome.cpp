@@ -2,6 +2,21 @@
 #include <string>
 using namespace std;
 
+//implement isalnum()
+//ASCII code printable 32 ~ 126
+bool isalnum_I(const char& c)
+{
+    bool isUpperAlpha = false;
+    bool isLowerAlpha = false;
+    bool isDigit = false;
+    int ascii = static_cast<int>(c);
+    if(ascii >= static_cast<int>('A') &&  ascii <= static_cast<int>('Z')) isUpperAlpha = true;
+    if(ascii >= static_cast<int>('a') &&  ascii <= static_cast<int>('z')) isLowerAlpha = true;
+    if(ascii >= static_cast<int>('0') &&  ascii <= static_cast<int>('9')) isDigit = true;
+
+    return isUpperAlpha || isLowerAlpha || isDigit;
+}
+
 //two pointers
 //Time:O(N)
 //Space:O(1)
@@ -36,17 +51,13 @@ public:
         string alphanumericStr = "";
         for(auto c: s)
         {
-            if(isalnum(c))
+            if(isalnum_I(c))
                 alphanumericStr += tolower(c); 
         }
         string reverseStr = string(alphanumericStr.rbegin(), alphanumericStr.rend());
         return alphanumericStr == reverseStr;
     } 
 };
-
-//implement isalnum()
-
-
 
 int main()
 {    
@@ -55,7 +66,7 @@ int main()
 
     string testStr1 = " ";
     string testStr2 = ".,]-";
-    string testStr3 = "A man, a plan, a canal: Panama";
+    string testStr3 = "100 A man, a plan, a canal: Panama 001";
     string testStr4 = "Not a palindrome";
     
     cout << "sol1, test1: " << solution1.isPalindrome(testStr1) << endl;
