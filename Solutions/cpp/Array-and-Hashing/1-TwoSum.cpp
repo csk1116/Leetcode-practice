@@ -3,7 +3,7 @@
 #include <unordered_map>
 using namespace std;
 
-//
+//BF
 //time: O(N^2)
 //space: O(1)
 class Solution1

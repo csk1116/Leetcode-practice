@@ -16,6 +16,7 @@
 |:------|:-------:|:--:|:------:|
 | 167-Two Sum II | [cpp](Solutions/cpp/Two-pointers/167-TwoSumII.cpp) / python |  -  |
 | 125-Valid Palindrome | [cpp](Solutions/cpp/Two-pointers/125-ValidPalindrome.cpp) / python |  -  | v |
+| 15-3Sum | [cpp](Solutions/cpp/Two-pointers/15-3Sum.cpp) / python |  -  | v |
 
 ---
 
