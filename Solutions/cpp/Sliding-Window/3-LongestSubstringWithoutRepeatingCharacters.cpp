@@ -3,7 +3,7 @@
 #include <unordered_set>
 using namespace std;
 
-//sliding window
+//sliding window (bucket)
 //Time:O(N)
 //Space:O(N) 
 class Solution1

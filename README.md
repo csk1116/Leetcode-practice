@@ -25,6 +25,8 @@
 |:------|:-------:|:--:|:------:|
 | 121-Best Time to Buy and Sell Stock | [cpp](Solutions/cpp/Sliding-Window/121-BestTimeToBuyAndSellStock.cpp) / python |  -  | v |
 | 3-Longest Substring Without Repeating Characters | [cpp](Solutions/cpp/Sliding-Window/3-LongestSubstringWithoutRepeatingCharacters.cpp) / python |  -  | v |
+| 424-Longest Repeating Character Replacement | [cpp](Solutions/cpp/Sliding-Window/424-LongestRepeatingCharacterReplacement.cpp) / python |  *  | v |
+
 ---
 
 ## Linked List
