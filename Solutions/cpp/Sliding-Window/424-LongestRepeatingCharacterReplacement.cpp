@@ -30,7 +30,7 @@ public:
                 index = static_cast<int>(s[left] - 'A');
                 uppercaseArr[index] --;
                 
-                // actually we don't have to do this but its really hard to come across.
+                // actually we don't have to do this but it's really hard to come up with.
                 //-----------------------------
                 if(modeCount == uppercaseArr[index])
                 {
@@ -69,7 +69,7 @@ public:
             {
                 map[s[left]] --;
                 
-                // actually we don't have to do this but its really hard to come across
+                // actually we don't have to do this but it's really hard to come up with.
                 //-----------------------------
                 if(maxCount == map[s[left]])
                 {
