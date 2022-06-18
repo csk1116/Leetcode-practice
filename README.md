@@ -6,7 +6,7 @@
 | 1-Two Sum | [cpp](Solutions/cpp/Array-and-Hashing/1-TwoSum.cpp) / [python](Solutions/NOSE.JPG) |  -  | v |
 | 49-Group Anagrams | [cpp](Solutions/cpp/Array-and-Hashing/49-GroupAnagrams.cpp) / [python](Solutions/NOSE.JPG) | - | v |
 | 217-Contains Duplicate | [cpp](Solutions/cpp/Array-and-Hashing/217-ContainsDuplicate.cpp) / [python](Solutions/NOSE.JPG) | - | v |
-| 242-Valid Anagram | [cpp](Solutions/cpp/Array-and-Hashing/242-ValidAnagram.cpp) / python | - | v |
+| 242-Valid Anagram | [cpp](Solutions/cpp/Array-and-Hashing/242-ValidAnagram.cpp) / [python](Solutions/NOSE.JPG) | - | v |
 | 347-Top K Frequent Elements | [cpp](Solutions/cpp/Array-and-Hashing/347-Top-K-FrequentElements.cpp) / [python](Solutions/NOSE.JPG) | *Heap & *priority queue | v |
 
 ---
