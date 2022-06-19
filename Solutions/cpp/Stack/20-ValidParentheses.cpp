@@ -49,7 +49,7 @@ class Solution2
 public:
     bool isValid(string s)
     {
-        unordered_map<char, char> closeToOpen({{')', '('}, {']', '['}, {'}', '{'}});
+        unordered_map<char, char> closeToOpen = {{')', '('}, {']', '['}, {'}', '{'}};
         stack<char> myStack;
         for(auto p: s)
         {
