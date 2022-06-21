@@ -35,6 +35,7 @@
 | 20-Valid Parentheses | [cpp](Solutions/cpp/Stack/20-ValidParentheses.cpp) / [python](Solutions/NOSE.JPG) |  -  | v |
 | 155-Min Stack | [cpp](https://github.com/csk1116/learn-DS-ALGO/blob/main/Stack/MinStack.cpp) / [python](Solutions/NOSE.JPG) |  -  |
 | 150-Evaluate Reverse Polish Notation | [cpp](Solutions/cpp/Stack/150-EvaluateReversePolishNotation.cpp) / [python](Solutions/NOSE.JPG) |  -  |
+| 22-Generate Parentheses | [cpp](Solutions/cpp/Stack/22-GenerateParentheses.cpp) / [python](Solutions/NOSE.JPG) |  *** learn backtracking  |
 
 ---
 
