@@ -8,7 +8,16 @@ using namespace std;
 //Space:O()
 class Solution1
 {    
-public:    
+public:            
+    vector<string> generateParenthesis(int n) 
+    {     
+        vector<string> result;
+        string validParentheses = "";      
+        int open = n;
+        int close = n;  
+        backTrack(result, validParentheses, open, close);            
+        return result;
+    } 
     void backTrack(vector<string>& vec, string s, int open, int close)
     {
         if(open == 0 && close == 0)
@@ -22,15 +31,7 @@ public:
             backTrack(vec, (s + "("), open - 1, close);
             backTrack(vec, (s + ")"), open, close -1);
         }        
-    }    
-    vector<string> generateParenthesis(int n) {     
-        vector<string> result;
-        string validParentheses = "";      
-        int open = n;
-        int close = n;  
-        backTrack(result, validParentheses, open, close);            
-        return result;
-    }   
+    }  
 };
 
 //
