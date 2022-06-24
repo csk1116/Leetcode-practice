@@ -45,6 +45,7 @@
 | 704-Binary Search | [cpp](https://github.com/csk1116/learn-DS-ALGO/blob/main/Search/BinarySearch.cpp) / [python](Solutions/NOSE.JPG) |  -  |
 | 74-Search a 2D Matrix | [cpp](Solutions/cpp/Binary-search/74-Search-a-2D-Matrix) / [python](Solutions/NOSE.JPG) |  -  |
 | 875-KoKo Eating Bananas | [cpp](Solutions/cpp/Binary-search/875-KoKoEatingBananas.cpp) / [python](Solutions/NOSE.JPG) |  ***  |
+| 33-Search in Rotated Sorted Array | [cpp](Solutions/cpp/Binary-search/33-Search-In-RotatedSortedArray.cpp) / [python](Solutions/NOSE.JPG) |  ***conditions  | v |
 
 ---
 
