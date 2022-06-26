@@ -52,8 +52,8 @@
 ## Linked List
 |Problem|Solutions|Todo|Blind75?|
 |:------|:-------:|:--:|:------:|
-| 206-Reverse Linked List | [cpp](Solutions/cpp/LinkedList/206-ReverseLinkedList.exe) / [python](Solutions/NOSE.JPG) |  -  |
-| 21-Merge Two Sorted Lists | [cpp](Solutions/cpp/LinkedList/21-MergeTwoSortedLists.cpp) / [python](Solutions/NOSE.JPG) |  *Recursive method  | v |
+| 206-Reverse Linked List | [cpp](Solutions/cpp/LinkedList/206-ReverseLinkedList.exe) / [python](Solutions/NOSE.JPG) |  *Recursive method  | v |
+| 21-Merge Two Sorted Lists | [cpp](Solutions/cpp/LinkedList/21-MergeTwoSortedLists.cpp) / [python](Solutions/NOSE.JPG) |  *pointer  | v |
  
 ---
 
