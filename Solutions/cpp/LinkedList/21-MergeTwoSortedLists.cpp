@@ -51,8 +51,15 @@ class Solution1
 public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2)
     {
-        ListNode* result = new ListNode(0);
-        ListNode* current = result;
+        if(!list1 && !list2)
+            return nullptr;
+        if(!list1)
+            return list2;
+        if(!list2)
+            return list1;
+
+        ListNode* dummyNode = new ListNode(0);
+        ListNode* current = dummyNode;
 
         while(list1 && list2)
         {
@@ -69,7 +76,7 @@ public:
             current = current->next;         
         }
         current->next = list1 ? list1 : list2;
-        return result->next;
+        return dummyNode->next;
     }    
 };
 
@@ -79,7 +86,26 @@ public:
 class Solution2
 {
 public:
+    ListNode* mergeTwoLists(ListNode* list1, ListNode* list2)
+    {
+        if(!list1)
+            return list2;
+        if(!list2)
+            return list1;
 
+        ListNode* head;
+        if(list1->val > list2->val)
+        {
+            head = list2;
+            head->next = mergeTwoLists(list1, list2->next);
+        }
+        else
+        {
+            head = list1;
+            head->next = mergeTwoLists(list1->next, list2);
+        }
+        return head;
+    }
 };
 
 int main()
@@ -89,36 +115,66 @@ int main()
     vector<int> testVec3 = {1, 3, 5, 7, 9};
     vector<int> testVec4 = {2, 3, 4, 5, 6};
 
-    ListNode* list1 = createLinkedList(testVec1);
-    ListNode* list2 = createLinkedList(testVec2);
-    ListNode* list3 = createLinkedList(testVec3);
-    ListNode* list4 = createLinkedList(testVec4);
+    ListNode* test1List1 = createLinkedList(testVec1);
+    ListNode* test1List2 = createLinkedList(testVec2);
+    ListNode* test1List3 = createLinkedList(testVec3);
+    ListNode* test1List4 = createLinkedList(testVec4);
 
     Solution1 solution1;    
+    Solution2 solution2;
 
-    //test1 list1 & list1 -> empty
+    //list1 & list1 -> empty
     cout << "before:" << endl;
-    printLinkedList(list1);
-    printLinkedList(list1);
-    ListNode* test1 = solution1.mergeTwoLists(list1, list1);
+    printLinkedList(test1List1);
+    printLinkedList(test1List1);
+    ListNode* sol1Test1 = solution1.mergeTwoLists(test1List1, test1List1);
     cout << "merged: ";
-    printLinkedList(test1);
+    printLinkedList(sol1Test1);
 
-    //test2 list1 & list2 -> 1
+    //list1 & list2 -> 1
     cout << "before:" << endl;
-    printLinkedList(list1);
-    printLinkedList(list2);
-    ListNode* test2 = solution1.mergeTwoLists(list1, list2);
+    printLinkedList(test1List1);
+    printLinkedList(test1List2);
+    ListNode* sol1Test2 = solution1.mergeTwoLists(test1List1, test1List2);
     cout << "merged: ";
-    printLinkedList(test2);
+    printLinkedList(sol1Test2);
 
-    //test3 list3 & list4 -> 1->2->3->3->4->5->5->6->7->9
+    //test1list3 & test1list4 -> 1->2->3->3->4->5->5->6->7->9
     cout << "before:" << endl;
-    printLinkedList(list3);
-    printLinkedList(list4);
-    ListNode* test3 = solution1.mergeTwoLists(list3, list4);
+    printLinkedList(test1List3);
+    printLinkedList(test1List4);
+    ListNode* sol1Test3 = solution1.mergeTwoLists(test1List3, test1List4);
     cout << "merged: ";
-    printLinkedList(test3);  
+    printLinkedList(sol1Test3);  
+
+    ListNode* test2List1 = createLinkedList(testVec1);
+    ListNode* test2List2 = createLinkedList(testVec2);
+    ListNode* test2List3 = createLinkedList(testVec3);
+    ListNode* test2List4 = createLinkedList(testVec4);
+
+    //test2list1 & test2list1 -> empty
+    cout << "before:" << endl;
+    printLinkedList(test2List1);
+    printLinkedList(test2List1);
+    ListNode* sol2Test1 = solution2.mergeTwoLists(test2List1, test2List1);
+    cout << "merged: ";
+    printLinkedList(sol2Test1);
+
+    //test2list1 & test2list2 -> 1
+    cout << "before:" << endl;
+    printLinkedList(test2List1);
+    printLinkedList(test2List2);
+    ListNode* sol2Test2 = solution2.mergeTwoLists(test2List1, test2List2);
+    cout << "merged: ";
+    printLinkedList(sol2Test2);
+
+    //test2list3 & test2list4 -> 1->2->3->3->4->5->5->6->7->9
+    cout << "before:" << endl;
+    printLinkedList(test2List3);
+    printLinkedList(test2List4);
+    ListNode* sol2Test3 = solution2.mergeTwoLists(test2List3, test2List4);
+    cout << "merged: ";
+    printLinkedList(sol2Test3);  
 
     return 0;
 }
