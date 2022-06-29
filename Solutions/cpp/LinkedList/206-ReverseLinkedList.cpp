@@ -102,8 +102,7 @@ int main()
     ListNode* sol1Test2 = createLinkedList(testVec2);
     ListNode* sol1Test3 = createLinkedList(testVec3);
 
-    //sol 1
-    
+    //sol 1    
     cout << "origin: ";
     printLinkedList(sol1Test1);
     ListNode* sol1Result1 = solution1.reverseList(sol1Test1);

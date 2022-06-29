@@ -4,6 +4,7 @@
         "vector": "cpp",
         "algorithm": "cpp",
         "utility": "cpp",
-        "unordered_map": "cpp"
+        "unordered_map": "cpp",
+        "xmemory": "cpp"
     }
 }
