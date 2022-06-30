@@ -55,7 +55,8 @@
 | 206-Reverse Linked List | [cpp](Solutions/cpp/LinkedList/206-ReverseLinkedList.exe) / [python](Solutions/NOSE.JPG) |  *Recursive method  | v |
 | 21-Merge Two Sorted Lists | [cpp](Solutions/cpp/LinkedList/21-MergeTwoSortedLists.cpp) / [python](Solutions/NOSE.JPG) |  *pointer  | v |
 | 143-Reorder List | [cpp](Solutions/cpp/LinkedList/143-ReorderList.cpp) / [python](Solutions/NOSE.JPG) |  ***slow-fast  | v |
-| 19-Remove Nth Node From End of List | [cpp](Solutions/cpp/LinkedList/21-MergeTwoSortedLists.cpp) / [python](Solutions/NOSE.JPG) |  ***slow-fast  | v |
+| 19-Remove Nth Node From End of List | [cpp](Solutions/cpp/LinkedList/19-Remove-Nth-Node-From-End-of-List.cpp) / [python](Solutions/NOSE.JPG) |  ***slow-fast  | v |
+| 138-Copy List with Random Pointer | [cpp](Solutions/cpp/LinkedList/138-Copy-List-with-Random-Pointer.cpp) / [python](Solutions/NOSE.JPG) | *hashmap | v |
  
 ---
 
