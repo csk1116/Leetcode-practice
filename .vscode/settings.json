@@ -5,6 +5,7 @@
         "algorithm": "cpp",
         "utility": "cpp",
         "unordered_map": "cpp",
-        "xmemory": "cpp"
+        "xmemory": "cpp",
+        "iostream": "cpp"
     }
 }

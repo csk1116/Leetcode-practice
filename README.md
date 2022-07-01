@@ -57,6 +57,7 @@
 | 143-Reorder List | [cpp](Solutions/cpp/LinkedList/143-ReorderList.cpp) / [python](Solutions/NOSE.JPG) |  ***slow-fast  | v |
 | 19-Remove Nth Node From End of List | [cpp](Solutions/cpp/LinkedList/19-Remove-Nth-Node-From-End-of-List.cpp) / [python](Solutions/NOSE.JPG) |  ***slow-fast  | v |
 | 138-Copy List with Random Pointer | [cpp](Solutions/cpp/LinkedList/138-Copy-List-with-Random-Pointer.cpp) / [python](Solutions/NOSE.JPG) | *hashmap | v |
+| 2-Add Two Numbers | [cpp](Solutions/cpp/LinkedList/2-AddTwoNumbers.cpp) / [python](Solutions/NOSE.JPG) | - |
  
 ---
 
