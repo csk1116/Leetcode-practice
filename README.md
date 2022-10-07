@@ -8,6 +8,7 @@
 | 217-Contains Duplicate | [cpp](Solutions/cpp/Array-and-Hashing/217-ContainsDuplicate.cpp) / [python](Solutions/NOSE.JPG) | - | v |
 | 242-Valid Anagram | [cpp](Solutions/cpp/Array-and-Hashing/242-ValidAnagram.cpp) / [python](Solutions/NOSE.JPG) | - | v |
 | 347-Top K Frequent Elements | [cpp](Solutions/cpp/Array-and-Hashing/347-Top-K-FrequentElements.cpp) / [python](Solutions/NOSE.JPG) | *Heap & *priority queue | v |
+| 238-Product of Array Except Self | [cpp](Solutions/cpp/Array-and-Hashing/238-Product-of-ArrayExceptSelf.cpp) / [python](Solutions/NOSE.JPG) | - | v |
 
 ---
 
@@ -59,6 +60,13 @@
 | 138-Copy List with Random Pointer | [cpp](Solutions/cpp/LinkedList/138-Copy-List-with-Random-Pointer.cpp) / [python](Solutions/NOSE.JPG) | *hashmap | v |
 | 2-Add Two Numbers | [cpp](Solutions/cpp/LinkedList/2-AddTwoNumbers.cpp) / [python](Solutions/NOSE.JPG) | - |
  
+---
+
+## Trees
+|Problem|Solutions|Todo|Blind75?|
+|:------|:-------:|:--:|:------:|
+| 226-Invert Binary Tree | [cpp](Solutions/cpp/Trees/226-InvertBinaryTree.cpp) / [python](Solutions/NOSE.JPG) |  -  | v |
+
 ---
 
 ## 1-D Dynamic Programming
