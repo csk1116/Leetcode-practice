@@ -9,6 +9,7 @@
 | 242-Valid Anagram | [cpp](Solutions/cpp/Array-and-Hashing/242-ValidAnagram.cpp) / [python](Solutions/NOSE.JPG) | - | v |
 | 347-Top K Frequent Elements | [cpp](Solutions/cpp/Array-and-Hashing/347-Top-K-FrequentElements.cpp) / [python](Solutions/NOSE.JPG) | *Heap & *priority queue | v |
 | 238-Product of Array Except Self | [cpp](Solutions/cpp/Array-and-Hashing/238-Product-of-ArrayExceptSelf.cpp) / [python](Solutions/NOSE.JPG) | - | v |
+| 36-Valid Sudoku | [cpp](Solutions/cpp/Array-and-Hashing/36-ValidSudoku.cpp) / [python](Solutions/NOSE.JPG) | test |
 
 ---
 
