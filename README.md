@@ -11,7 +11,7 @@
 | 238-Product of Array Except Self | [cpp](Solutions/cpp/Array-and-Hashing/238-Product-of-ArrayExceptSelf.cpp) / [python](Solutions/NOSE.JPG) | - | v |
 | 36-Valid Sudoku | [cpp](Solutions/cpp/Array-and-Hashing/36-ValidSudoku.cpp) / [python](Solutions/NOSE.JPG) | test |
 | 383-Ransom Note | [cpp](Solutions/cpp/Array-and-Hashing/383-RansomNote.cpp) / [python](Solutions/NOSE.JPG) | - |
-
+| 169-Majority Element | [cpp](Solutions/cpp/Array-and-Hashing/169-MajorityElement.cpp) / [python](Solutions/NOSE.JPG) | - | *Boyer-Moore Algorithm |
 ---
 
 ## Two Pointers
