@@ -42,7 +42,10 @@ public:
             if(num != majorityElement)
             {
                 if (count == 0)
+                {
                     majorityElement = num;
+                    count ++;
+                }                    
                 else
                     count --;
             } 

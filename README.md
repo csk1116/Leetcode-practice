@@ -12,6 +12,8 @@
 | 36-Valid Sudoku | [cpp](Solutions/cpp/Array-and-Hashing/36-ValidSudoku.cpp) / [python](Solutions/NOSE.JPG) | test |
 | 383-Ransom Note | [cpp](Solutions/cpp/Array-and-Hashing/383-RansomNote.cpp) / [python](Solutions/NOSE.JPG) | - |
 | 169-Majority Element | [cpp](Solutions/cpp/Array-and-Hashing/169-MajorityElement.cpp) / [python](Solutions/NOSE.JPG) | - | *Boyer-Moore Algorithm |
+| 283-MoveZeros | [cpp](Solutions/cpp/Array-and-Hashing/283-MoveZeros.cpp) / [python](Solutions/NOSE.JPG) | - |
+
 ---
 
 ## Two Pointers
