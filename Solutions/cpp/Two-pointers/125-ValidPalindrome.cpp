@@ -4,7 +4,7 @@ using namespace std;
 
 //implement isalnum()
 //ASCII code printable 32 ~ 126
-bool isalnum_I(const char& c)
+bool isAlphaNumeric(const char& c)
 {
     bool isUpperAlpha = false;
     bool isLowerAlpha = false;
@@ -51,7 +51,7 @@ public:
         string alphanumericStr = "";
         for(auto c: s)
         {
-            if(isalnum_I(c))
+            if(isAlphaNumeric(c))
                 alphanumericStr += tolower(c); 
         }
         string reverseStr = string(alphanumericStr.rbegin(), alphanumericStr.rend());
