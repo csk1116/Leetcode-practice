@@ -4,7 +4,7 @@ using namespace std;
 
 //Brute force
 //T: O(N^2)
-//S:
+//S: O(1)
 class Solution1
 {
 public:
@@ -25,11 +25,7 @@ public:
                     result.push_back(i + 1);
                     cout << "sol1: " << i + 1 << ", " << j + 1 << endl;
                     return result;
-                }
-                else if(sum > target)
-                {
-                    continue;
-                }
+                }                
             }
         }
 
@@ -40,7 +36,7 @@ public:
 
 //Two pointer
 //T: O(N)
-//S:
+//S: O(1)
 
 class Solution2
 {
