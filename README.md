@@ -22,7 +22,7 @@
 | 167-Two Sum II | [cpp](Solutions/cpp/Two-pointers/167-TwoSumII.cpp) / [python](Solutions/NOSE.JPG) |  -  |
 | 125-Valid Palindrome | [cpp](Solutions/cpp/Two-pointers/125-ValidPalindrome.cpp) / [python](Solutions/NOSE.JPG) |  -  | v |
 | 15-3Sum | [cpp](Solutions/cpp/Two-pointers/15-3Sum.cpp) / [python](Solutions/NOSE.JPG) |  -  | v |
-| 11-Container With Most Water | [cpp](Solutions/cpp/Two-pointers/11-ContainerWithMostWater.cpp) / [python](Solutions/NOSE.JPG) |  not finish yet  | v |
+| 11-Container With Most Water | [cpp](Solutions/cpp/Two-pointers/11-ContainerWithMostWater.cpp) / [python](Solutions/NOSE.JPG) |  not complete yet  | v |
 
 ---
 
@@ -32,6 +32,7 @@
 | 121-Best Time to Buy and Sell Stock | [cpp](Solutions/cpp/Sliding-Window/121-BestTimeToBuyAndSellStock.cpp) / [python](Solutions/NOSE.JPG) |  -  | v |
 | 3-Longest Substring Without Repeating Characters | [cpp](Solutions/cpp/Sliding-Window/3-LongestSubstringWithoutRepeatingCharacters.cpp) / [python](Solutions/NOSE.JPG) |  -  | v |
 | 424-Longest Repeating Character Replacement | [cpp](Solutions/cpp/Sliding-Window/424-LongestRepeatingCharacterReplacement.cpp) / [python](Solutions/NOSE.JPG) |  ***  | v |
+| 567-Permutation in String | [cpp](Solutions/cpp/Sliding-window/PermutationInString.cpp) / [python](Solutions/NOSE.JPG) |  not complete yet  |
 
 ---
 

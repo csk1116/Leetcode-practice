@@ -46,7 +46,7 @@ public:
                     vector<int> set = {nums[i], nums[left], nums[right]};
                     result.push_back(set);
                     left ++;
-                    while(nums[left] == nums[left - 1] && left < right)
+                    while(nums[left] == nums[left - 1] && left < right) 
                         left ++;
                 }
             }            
