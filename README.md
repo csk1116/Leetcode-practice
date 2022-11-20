@@ -13,6 +13,7 @@
 | 383-Ransom Note | [cpp](Solutions/cpp/Array-and-Hashing/383-RansomNote.cpp) / [python](Solutions/NOSE.JPG) | - |
 | 169-Majority Element | [cpp](Solutions/cpp/Array-and-Hashing/169-MajorityElement.cpp) / [python](Solutions/NOSE.JPG) | - | *Boyer-Moore Algorithm |
 | 283-MoveZeros | [cpp](Solutions/cpp/Array-and-Hashing/283-MoveZeros.cpp) / [python](Solutions/NOSE.JPG) | - |
+| 128-Longest Consecutive Sequence | [cpp](Solutions/cpp/Array-and-Hashing/128-Longest-Consecutive-Sequence.cpp) / [python](Solutions/NOSE.JPG) | not complete yet | v |
 
 ---
 
@@ -43,6 +44,9 @@
 | 155-Min Stack | [cpp](https://github.com/csk1116/learn-DS-ALGO/blob/main/Stack/MinStack.cpp) / [python](Solutions/NOSE.JPG) |  -  |
 | 150-Evaluate Reverse Polish Notation | [cpp](Solutions/cpp/Stack/150-EvaluateReversePolishNotation.cpp) / [python](Solutions/NOSE.JPG) |  -  |
 | 22-Generate Parentheses | [cpp](Solutions/cpp/Stack/22-GenerateParentheses.cpp) / [python](Solutions/NOSE.JPG) |  ** learn backtracking  |
+| 232-Implement Queue using Stacks | [cpp](Solutions/cpp/Stack/232-Implement-Queue-using-Stacks.cpp) / [python](Solutions/NOSE.JPG) |  not complete yet  |
+| 394-Decode String | [cpp](Solutions/cpp/Stack/394-DecodeString.cpp) / [python](Solutions/NOSE.JPG) |  not complete yet  |
+| 844-Backspace String Compare | [cpp](Solutions/cpp/Stack/844-BackspaceStringCompare.cpp) / [python](Solutions/NOSE.JPG) |  not complete yet  |
 
 ---
 
@@ -53,6 +57,9 @@
 | 74-Search a 2D Matrix | [cpp](Solutions/cpp/Binary-search/74-Search-a-2D-Matrix) / [python](Solutions/NOSE.JPG) |  -  |
 | 875-KoKo Eating Bananas | [cpp](Solutions/cpp/Binary-search/875-KoKoEatingBananas.cpp) / [python](Solutions/NOSE.JPG) |  ***  |
 | 33-Search in Rotated Sorted Array | [cpp](Solutions/cpp/Binary-search/33-Search-In-RotatedSortedArray.cpp) / [python](Solutions/NOSE.JPG) |  ***conditions  | v |
+| 153-Find Minimum in Rotated Sorted Array | [cpp](Solutions/cpp/Binary-search/153-Find-Minimum-in-Rotated-Sorted-Array.cpp) / [python](Solutions/NOSE.JPG) |  not complete yet  | v |
+| 981-Time Based Key-Value Store | [cpp](Solutions/cpp/Binary-search/153-Find-Minimum-in-Rotated-Sorted-Array.cpp) / [python](Solutions/NOSE.JPG) |  not complete yet  | v |
+
 
 ---
 
